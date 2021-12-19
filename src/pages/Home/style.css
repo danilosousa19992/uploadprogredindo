@@ -1,0 +1,32 @@
+
+.home-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-app{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.titulo-app h1{
+    font-size: 30px;
+    color: rgb(82, 13, 24);
+}
+
+.menu{
+    width: 70%;
+    margin: 0 15%;
+}
+
+.logo-container{
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.logo-container img{
+    margin: 0 20%;
+    border-radius: 10px;
+}

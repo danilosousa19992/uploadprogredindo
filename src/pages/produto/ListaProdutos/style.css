@@ -1,0 +1,47 @@
+.lista-clientes-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-lista-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 90%;
+    background-color: #ecebec;
+    box-shadow: 0 0 10px 6px #afa7a7;
+    border-radius: 8px;
+    height: 600px;
+    padding: 20px 0;
+}
+
+.lista-clientes{
+    width: 90%;
+    margin: 35px 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista-clientes table{
+    width: 100%;
+    text-align: center;
+}
+
+#button-delete, #button-update{
+    border: none;
+    cursor: pointer;
+}
+
+#button-delete:hover, #button-update:hover{
+    filter: saturate(0.6);
+}
+/* .lista-clientes ul li{
+    list-style-type:none;
+    display: inline-flex;
+    margin:0 20px
+} */
+
